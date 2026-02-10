@@ -3,10 +3,11 @@ Welcome!
 [EXTENSION_NAME] is a Firefox extension made to enthusiate programmers. With the simple press of a button, you can choose to receive words of motivation, fun CS facts, or even cute programming jokes! 
 
 # Authors
-Lucy Hartigan - @lucyhartigan
-Tianliang Qin - @tianlangqin
-Mikhail Bond - @mikhailbond1
-Bella Diallo - @hbd9577
++ Lucy Hartigan - @lucyhartigan
++ Tianliang Qin - @tianlangqin
++ Mikhail Bond - @mikhailbond1
++ Bella Diallo - @hbd9577
+
 
 # Installation Instructions
 _Please note, this is a temporary mode of installation._
