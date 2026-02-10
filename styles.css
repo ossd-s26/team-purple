@@ -1,6 +1,6 @@
 body{
     background-color: rgb(221, 202, 238);
-    width: 90%; /* Or fixed width like 960px */
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,10 +9,6 @@ body{
 h1 {
     color: rgb(129, 54, 183);
 }
-
-/* #title {
-    border-bottom: 2px solid black;
-} */
 
 button{
     padding: 5px;
