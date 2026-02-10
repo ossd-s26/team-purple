@@ -1,6 +1,6 @@
 # Team Purple
 Welcome! 
-[EXTENSION_NAME] is a Firefox extension made to enthusiate programmers. With the simple press of a button, you can choose to receive words of motivation, fun CS facts, or even cute programming jokes! 
+QuoteDaily is a Firefox extension made to enthusiate programmers. With the simple press of a button, you can choose to receive words of motivation, fun CS facts, or even cute programming jokes! 
 
 # Authors
 + Lucy Hartigan - [@lucyhartigan](https://github.com/lucyhartigan)
