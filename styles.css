@@ -22,6 +22,6 @@ button:hover{
     background-color: rgb(232, 218, 246);
 }
 
-#quote{
+#quote, #author{
     color:rgb(80, 34, 171)
 }
