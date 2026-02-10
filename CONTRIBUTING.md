@@ -35,8 +35,6 @@ Please use this workflow below to contribute. (For reporting bugs, please refer 
 
     Click on the "Compare & pull request" in this repo and write a meaningful description
 
-## Code Style 
-
 ## Reporting Bugs
 
 1. Check for existing issues relating to the bug you are experiencing
