@@ -1,5 +1,5 @@
 
-# Contributor Covenant 3.0 Code of Conduct
+# Team Purple's Community Statement
 
 ## Our Pledge
 
