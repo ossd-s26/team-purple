@@ -9,7 +9,7 @@
 
 ## How to Contribute 
 
-Please use this workflow below to contribute.
+Please use this workflow below to contribute. (For reporting bugs, please refer to  [Reporting Bugs](#reporting-bugs))
 
 1. Fork this repository by clicking on the fork button on the top right of the repository
 2. Clone the fork to your local machine 
@@ -32,7 +32,15 @@ Please use this workflow below to contribute.
     ```git push origin NAME-OF-YOUR-BRANCH```
 
 8. Submit a pull request
-    a. Click on the "Compare & pull request" in this repo and write a meaningful description
 
+    Click on the "Compare & pull request" in this repo and write a meaningful description
 
+## Code Style 
+
+## Reporting Bugs
+
+1. Check for existing issues relating to the bug you are experiencing
+
+    If there is an existing issue on it, please add comment on that issue   
+2. If there isn't an existing issue on the bug, create a new issue using the following this [template](bug_report_template.md) adapted from [bug_template](https://gist.github.com/automationhacks/87b62440faf36d98ebbb732c372dd7c3)
 
