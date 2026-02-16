@@ -1,4 +1,4 @@
-# Team Purple
+# QuoteDaily
 Welcome! 
 QuoteDaily is a Firefox extension made to enthusiate programmers. With the simple press of a button, you can choose to receive words of motivation, fun CS facts, or even cute programming jokes! 
 
