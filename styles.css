@@ -1,27 +1,156 @@
-body{
-    background-color: rgb(221, 202, 238);
-    width: 90%;
-    margin: 0 auto;
+/* General body*/
+body {
+    background-color: #e9d9f6;
+    width: 350px;
+    height: 500px;
+    margin: 50px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a148c;
+
+    display: flex;
+    flex-direction: column;
 }
 
+html, body {
+    width: 380px;
+    height: 380px;
+}
+
+/*heading*/
 h1 {
-    color: rgb(129, 54, 183);
+    color: #6a1b9a;
+    margin-bottom: 20px;
 }
 
-button{
-    padding: 5px;
+/* buttons */
+button {
+    padding: 6px 14px;
     margin: 5px;
-    border: 1px solid rgb(105, 55, 125);
-    border-radius: 5px;
-    background-color: rgb(198, 165, 228);
+    border: none;
+    border-radius: 6px;
+    background-color: #b39ddb;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
 }
 
-button:hover{
-    background-color: rgb(232, 218, 246);
+button:hover {
+    background-color: #9575cd;
 }
 
-#quote, #author{
-    color:rgb(80, 34, 171)
+/* Main quote card*/
+#quoteCard {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    max-width: 350px;
+    margin: 15px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+#quoteCard p {
+    margin: 0;
+}
+
+
+/* Quote text*/
+#quote {
+    font-weight: bold;
+    font-size: 16px;
+    color: #4a148c;
+}
+
+#author {
+    font-size: 14px;
+    color: #7b1fa2;
+    margin-top: 8px;
+}
+
+
+/* favorite button */
+#favoriteBtn {
+    margin-top: 12px;
+    align-self: flex-end;
+    padding: 6px 12px;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+#favoriteBtn.saved {
+    background-color: #d81b60;
+    color: white;
+}
+
+
+/* Favorties List */
+#favoritesList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.favoriteCard {
+    background-color: #fff;
+    padding: 12px 40px 12px 16px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    position: relative;
+    text-align: left;
+}
+
+.favoriteQuote {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+.favoriteAuthor {
+    font-size: 13px;
+    color: #7b1fa2;
+    margin-top: 6px;
+}
+
+/* Delete button*/
+.deleteBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+    margin: 6px;
+}
+
+.deleteBtn:hover {
+    background-color: #c2185b;
+}
+
+/* nav buttons */
+#generate, #goToFavorites, #back {
+    background-color: #7e57c2;
+    color: white;
+    padding: 6px 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#generate:hover, #goToFavorites:hover, #back:hover {
+    background-color: #5e35b1;
 }
