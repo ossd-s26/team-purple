@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <div id="title">
-     <h1>Inspirational Quote Generator</h1>
+<body>
+
+  <div id="mainView">
+
+    <h1>Inspirational Quote Generator</h1>
+
+    <button id="generate">Generate Quote</button>
+    <button id="goToFavorites">View Favorites</button>
+
+    <div id="quoteCard">
+      <p id="quote"></p>
+      <p id="author"></p>
+
+      <div class="quoteActions">
+        <button id="favoriteBtn">Favorite</button>
+      </div>
     </div>
 
-    <div id = 'quoteSection'>
-     <button>Generate Quote</button>
-     <p id = 'quote'>  </p>
-     <p id = 'author'>  </p>
-    </div>
+  </div>
 
-    <script src="popup.js"></script>
+  <div id="favoritesView" style="display:none">
 
-  </body>
+    <h1>Favorites</h1>
+
+    <button id="back">Back</button>
+
+    <div id="favoritesList"></div>
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
 </html>
